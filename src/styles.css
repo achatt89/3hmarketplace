@@ -12,7 +12,7 @@ html {
     font-size: 1.6rem;
     line-height: 1.5;
     font-weight: 400;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
     color: #262626;
   }
   
@@ -1821,7 +1821,7 @@ html {
   }
   
   .page-header-wrapper.layout-two {
-    background-image: url("./assets/my-account-bgtitle.jpg");
+    background-image: url("./assets/images/my-account-bgtitle.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2047,7 +2047,7 @@ html {
   }
   
   .mega-fullwidth .mega-menu-wrap {
-    background-image: url("./assets/menu-shop-bg.jpg");
+    background-image: url("./assets/images/menu-shop-bg.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2265,7 +2265,7 @@ html {
   
   .modalSearchBox .modaloverlay {
     background-color: white;
-    cursor: url("./assets/icons/cancel.png"), auto;
+    cursor: url("./assets/images/icons/cancel.png"), auto;
     height: 100vw;
     -webkit-transform: scale(0) translate(0);
     -moz-transform: scale(0) translate(0);
@@ -2920,7 +2920,7 @@ html {
   }
   
   .special-category-banner.special-cate-bg {
-    background-image: url("./assets/category/home8/h8-bg3.png"), url("./assets/category/home8/h8-bg2.png");
+    background-image: url("./assets/images/category/home8/h8-bg3.png"), url("./assets/images/category/home8/h8-bg2.png");
     background-repeat: no-repeat;
     background-position: right top, left bottom;
   }
@@ -4477,7 +4477,7 @@ html {
   Start Banner Area // Home3
   ================================*/
   .banner-content-wrap {
-    background-image: url("./assets/banner/home3-banner-bg.jpg");
+    background-image: url("./assets/images/banner/home3-banner-bg.jpg");
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
@@ -4580,7 +4580,7 @@ html {
   Start Banner Area // Home4
   =============================================*/
   .banner-area-wrapper.layout-two {
-    background-image: url("./assets/banner/home4-banner-bg.jpg");
+    background-image: url("./assets/images/banner/home4-banner-bg.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -4621,7 +4621,7 @@ html {
   Start Summer Banner Area / index6.html
   ===========================================*/
   .summer-banner-area {
-    background-image: url("./assets/summer.jpg");
+    background-image: url("./assets/images/summer.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -4722,7 +4722,7 @@ html {
   }
   
   .summer-banner-area.layout-two {
-    background-image: url("./assets/new-summer.jpg");
+    background-image: url("./assets/images/new-summer.jpg");
     background-attachment: scroll;
     padding: 143px 0 160px;
     position: relative;
@@ -4768,7 +4768,7 @@ html {
   }
   
   .summer-banner-area.layout-three {
-    background-image: url("./assets/summer-sale-bg.jpg");
+    background-image: url("./assets/images/summer-sale-bg.jpg");
     background-attachment: scroll;
   }
   
@@ -4837,7 +4837,7 @@ html {
   }
   
   .testimonial-area-wrapper .testimonial-content-wrapper:before {
-    content: url("./assets/icons/quote.png");
+    content: url("./assets/images/icons/quote.png");
     display: inline-block;
     margin-bottom: 23px;
   }
@@ -4893,7 +4893,7 @@ html {
   Start Newsletter Area
   ================================*/
   #newsletter-area-wrap {
-    background-image: url("./assets/newsletterbg.jpg");
+    background-image: url("./assets/images/newsletterbg.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -5095,7 +5095,7 @@ html {
   Start Single Product Banner
   ================================*/
   .single-product-banner-area {
-    background-image: url("./assets/product-banner/single-product-banner-1.jpg");
+    background-image: url("./assets/images/product-banner/single-product-banner-1.jpg");
     background-size: cover;
     background-position: center center;
     padding: 250px 0;
@@ -5780,15 +5780,15 @@ html {
   }
   
   .single-product-banner-wrapper .single-product-banner-area.bg-1 {
-    background-image: url("./assets/product-banner/single-product-banner-2.jpg");
+    background-image: url("./assets/images/product-banner/single-product-banner-2.jpg");
   }
   
   .single-product-banner-wrapper .single-product-banner-area.bg-3 {
-    background-image: url("./assets/product-banner/single-product-banner-3.jpg");
+    background-image: url("./assets/images/product-banner/single-product-banner-3.jpg");
   }
   
   .single-product-banner-wrapper .single-product-banner-area.bg-4 {
-    background-image: url("./assets/product-banner/single-product-banner-4.jpg");
+    background-image: url("./assets/images/product-banner/single-product-banner-4.jpg");
   }
   
   /*========================================
@@ -5882,19 +5882,19 @@ html {
   }
   
   .layout-two .single-home-banner-wrap.bg-1 {
-    background-image: url("./assets/banner/home14/h14-banner-1.jpg");
+    background-image: url("./assets/images/banner/home14/h14-banner-1.jpg");
   }
   
   .layout-two .single-home-banner-wrap.bg-2 {
-    background-image: url("./assets/banner/home14/h14-banner-2.jpg");
+    background-image: url("./assets/images/banner/home14/h14-banner-2.jpg");
   }
   
   .layout-two .single-home-banner-wrap.bg-3 {
-    background-image: url("./assets/banner/home14/h14-banner-3.jpg");
+    background-image: url("./assets/images/banner/home14/h14-banner-3.jpg");
   }
   
   .layout-two .single-home-banner-wrap.bg-4 {
-    background-image: url("./assets/banner/home14/h14-banner-4.jpg");
+    background-image: url("./assets/images/banner/home14/h14-banner-4.jpg");
   }
   
   .layout-two .single-home-banner-wrap .container,
@@ -8129,7 +8129,7 @@ html {
   }
   
   .provide-best-service {
-    background: url("./assets/about2-bg2.jpg") center center;
+    background: url("./assets/images/about2-bg2.jpg") center center;
     background-size: cover;
     padding: 85px 0;
   }
@@ -8272,7 +8272,7 @@ html {
   Start Coming Soon Page Wrapper
   ===========================================*/
   #coming-soon-page-wrapper {
-    background: url("./assets/coming-soon-bg.jpg") no-repeat center center;
+    background: url("./assets/images/coming-soon-bg.jpg") no-repeat center center;
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -8438,7 +8438,7 @@ html {
   Start Start 404 Error Page Wrapper
   ===========================================*/
   #error-page-wrapper {
-    background: url("./assets/404-bg.jpg") center center;
+    background: url("./assets/images/404-bg.jpg") center center;
     background-size: cover;
     height: 100vh;
   }
