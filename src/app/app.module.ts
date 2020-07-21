@@ -4,7 +4,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireStorageModule } from '@angular/fire/storage';
 import { environment } from '../environments/environment';
+
+import { MarketplaceCrudService } from './service/marketplace-crud.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +20,7 @@ import { ProductInfoComponent } from './product-info/product-info.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { ProductUploadComponent } from './admin/product-upload/product-upload.component';
 
 @NgModule({
   declarations: [
@@ -27,16 +32,19 @@ import { HomePageComponent } from './home-page/home-page.component';
     ProductInfoComponent,
     ProductPageComponent,
     FooterComponent,
-    HomePageComponent
+    HomePageComponent,
+    ProductUploadComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    // AngularFireModule.initializeApp(environment.firebase), // Main Angular fire module
-    // AngularFireDatabaseModule  // Firebase database module 
+    AngularFireModule.initializeApp(environment.firebase), // Main Angular fire module
+    AngularFireDatabaseModule,  // Firebase database module
+    AngularFirestoreModule,
+    AngularFireStorageModule
   ],
-  providers: [],
+  providers: [MarketplaceCrudService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

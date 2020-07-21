@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyB3omprH0lgCt_TMJgpNZeucBl4nOVlXaE",
+    authDomain: "hmarketplace-da033.firebaseapp.com",
+    databaseURL: "https://hmarketplace-da033.firebaseio.com",
+    projectId: "hmarketplace-da033",
+    storageBucket: "hmarketplace-da033.appspot.com",
+    messagingSenderId: "234594661019",
+    appId: "1:234594661019:web:302d9df9ad8efd40c08c3e",
+    measurementId: "G-CX8HH44ZW3"
+  }
 };
 
 /*
@@ -14,14 +24,3 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
-
-const firebaseConfig = {
-  apiKey: "AIzaSyBXRqGonMbSWnuk03XTCbIP3Rbt-mLheZM",
-  authDomain: "hmarketplace-eff40.firebaseapp.com",
-  databaseURL: "https://hmarketplace-eff40.firebaseio.com",
-  projectId: "hmarketplace-eff40",
-  storageBucket: "hmarketplace-eff40.appspot.com",
-  messagingSenderId: "345267009994",
-  appId: "1:345267009994:web:0ef99ff0f006028526f733",
-  measurementId: "G-X456G7VVHJ"
-};
